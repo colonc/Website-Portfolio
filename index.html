@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title class="titleFormat">Cassandra A. Colón </title>
+</head>
+
+<body>
+    <nav class="navbar has-background-primary" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item " href="index.html">
+                <h2 class="title pl-6 pt-2">Cassandra A. Colón</h2>
+            </a>
+
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <!--                     <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link">
+                                Portfolio
+                            </a>
+
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item">
+                                    About
+                                </a>
+                                <a class="navbar-item">
+                                    Jobs
+                                </a>
+                                <a class="navbar-item">
+                                    Contact
+                                </a>
+                                <hr class="navbar-divider">
+                                <a class="navbar-item">
+                                    Report an issue
+                                </a>
+                            </div>
+                        </div> -->
+            </div>
+
+            <div class="navbar-end is-align-content-space-between pr-6 is-size-4 ">
+                <a class="navbar-item">
+                    About
+                </a>
+                <a class="navbar-item">
+                    Portfolio
+                </a>
+                <a class="navbar-item">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </nav>
+    <section class="hero is-small hero-gradient pb-5">
+        <div class="hero-body">
+            <div class="columns is-vcentered is-gapless">
+                <div class="column" data-aos="fade-right">
+                    <figure class="image pb-6 pr-5">
+                        <img style="max-height: 95vh; width:auto;" src="imgs/IMG_1624.png">
+                    </figure>
+                </div>
+                <div class="column has-text-centered pt-6" data-aos="fade-up">
+                    <h2 class="title is-2 is-family-primary">Flex Your Love of Learning</h2>
+                    <h4 class="subtitle is-4 is-family-secondary">The learning begins when the knowledge ends</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container " data-aos="fade-up">
+            <h2 class="title is-2 mt-4 pt-6 has-text-centered">I'm a Dabbler</h2>
+            <h4 class="subtitle is-4 pb-6 is-family-secondary has-text-centered">My professional interests range from
+                UX/UI design to data science to development. In my personal time I rock climb, read, illustrate and am
+                constantly flexing my love of learning.</h4>
+        </div>
+    </section>
+
+    <section class="light-gradient">
+        <div class="container" data-aos="fade-up">
+            <h2 class="title is-2 mt-4 py-6 has-text-centered">Portfolio</h2>
+            <!-- <div class="columns is-centered ">
+                    <div class="column is-two-fifths">
+                        <div class="tile is-parent"> 
+                            <article class="tile is-child box">
+                            <p class="title has-text-centered">Middle box</p>
+                            <p class="subtitle has-text-centered">With an image</p>
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/640x480.png">
+                            </figure>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column is-two-fifths">
+                        <div class="tile is-parent">
+                            <article class="tile is-child box">
+                            <p class="title has-text-centered">Middle box</p>
+                            <p class="subtitle has-text-centered">With an image</p>
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/640x480.png">
+                            </figure>
+                            </article>
+                        </div>
+                    </div>
+                    
+                </div> -->
+
+            <div id="app" class="row columns is-multiline is-centered">
+                <div v-for="card in cardData" key="card.id" class="column is-4">
+                    <a href="pages/ProjectGerman.html">
+                        <div class="card large">
+                            <div class="card-image">
+                                <figure class="image is-3by2">
+                                    <img src="imgs/german.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4 pb-0 has-text-centered">Learn German/Deutsch</p>
+                                        <p class="subtitle has-text-centered">Poster Design</p>
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div v-for="card in cardData" key="card.id" class="column is-4">
+                    <a href="pages/ProjectBM4F.html">
+                        <div class="card large">
+                            <div class="card-image">
+                                <figure class="image is-3by2">
+                                    <img src="imgs/BM4F.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4 pb-0 has-text-centered">Lead Reporting App</p>
+                                        <p class="subtitle has-text-centered">Front-end App Development</p>
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div v-for="card in cardData" key="card.id" class="column is-4">
+                    <a href="pages/ProjectModura.html">
+                        <div class="card large">
+                            <div class="card-image">
+                                <figure class="image is-3by2">
+                                    <img src="imgs/modura.png" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-content">
+                                        <p class="title is-4 pb-0 has-text-centered">Modura App</p>
+                                        <p class="subtitle has-text-centered">App Prototyping</p>
+                                        <p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="container ">
+            <div class="content has-text-centered ">
+                <div class="soc">
+                    <a href="https://github.com/colonc"><i class="fa fa-github-alt fa-lg px-2"
+                            aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/cassandracolon/"><i class="fa fa-linkedin fa-lg px-2"
+                            aria-hidden="true"></i></a>
+                    <a href="mailto:c.colon101@gmail.com"><i class="fa fa-envelope fa-lg px-2"
+                            aria-hidden="true"></i></a>
+                </div>
+                <p>
+                    <strong>Website</strong> by <a href="http://cassandracolon.com">Cassandra Colón</a>.
+                    The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. <br>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
