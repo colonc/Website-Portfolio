@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans&display=swap');
+
+// Set your brand colors
+$purple: #D0BBEC;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #C4D1E7;
+$beige-lighter: #EFF0EB;
+$drk-purple: #261F8B;
+$light-white: #F5F5F5 ;
+
+
+//$hero-gradient: linear-gradient(#43e715,#0642a8);
+//$hero-gradient-invert: findColorInvert($hero-gradient);
+//$custom-colors: ("hero-gradient": ($hero-gradient, $hero-gradient-invert));
+
+.hero-gradient{
+    background-image: linear-gradient(#D0BBEC,#C4D1E7);
+}
+
+.titleFormat{
+    font-size: 24px;
+}
+
+.light-gradient{
+    background-image: linear-gradient(#C4D1E7,#f5f5f5);
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+// Update Bulma's global variables
+$family-primary: "Oleo Script", script;
+$family-secondary: "Open Sans", san-serif;
+ 
+$grey-dark: $brown;
+$grey-light: $light-white;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$title-color: $drk-purple;
+$subtitle-color: #363636;
+$navbar-item-color: #363636;
+$footer-background-color: $light-white; 
+// Update some of Bulma's component variables
+$body-background-color: $light-white;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+$hero-body-padding-small: 0 0;
+$footer-padding: 3rem 1.5rem 3rem;
+$navbar-item-color: $drk-purple;
+
+@import "~bulma/bulma";
