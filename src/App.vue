@@ -1,12 +1,10 @@
 <template>
   <div id="app">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <Navigation>  </Navigation>
-
-    <PageFooter>  </PageFooter>
-    <div id="nav">
-       
-    </div>
     <router-view/>
+    <PageFooter>  </PageFooter>
+    
   </div>
 </template>
 
@@ -14,15 +12,17 @@
 // @ is an alias to /src
 import Navigation from '@/components/Navigation.vue'
 import PageFooter from '@/components/PageFooter.vue'
+import PortfolioCard from '@/components/PortfolioCard.vue'
 
 export default {
   components: {
     Navigation,
     PageFooter,
-    
+    PortfolioCard
   }
 }
 </script>
+
 <style lang="scss">
 @import "../node_modules/bulma/css/bulma.css"
 </style>

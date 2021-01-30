@@ -1,18 +1,18 @@
 <template>
   <nav class="navbar has-background-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <router-link class="navbar-item " to="/">
+            <a class="navbar-item " href="index.html">
                 <h2 class="title pl-6 pt-2">Cassandra A. Colón</h2>
-            </router-link>
+            </a>
 
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger" v-on:click="isBurgerActive =! isBurgerActive" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div id="navbarBasicExample" class="navbar-menu">
+
+        <div class="navbar-menu" v-bind:class="{ 'is-active': isBurgerActive }">
             <div class="navbar-start">
                 <!--                     <div class="navbar-item has-dropdown is-hoverable">
                             <a class="navbar-link">
@@ -37,7 +37,7 @@
             </div>
 
             <div class="navbar-end is-align-content-space-between pr-6 is-size-4 ">
-                <router-link to="/About" class="navbar-item">
+               <router-link to="/About" class="navbar-item">
                     About
                 </router-link>
                 <a href="#PortfolioLink" class="navbar-item">
@@ -48,12 +48,20 @@
                 </a> -->
             </div>
         </div>
-  </nav>
+    </nav>
 </template>
 
 <script>
 export default {
 
+        data: function( ) { return {
+            isBurgerActive: false
+        }},
+        methods: {
+            toggle() {
+                this.isBurgerActive = !this.isBurgerActive
+            }
+        }
 }
 </script>
 
