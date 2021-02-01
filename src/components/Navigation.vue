@@ -40,9 +40,9 @@
                <router-link to="/About" class="navbar-item">
                     About
                 </router-link>
-                <a href="#PortfolioLink" class="navbar-item">
+                <router-link to="/#PortfolioLink" class="navbar-item">
                     Portfolio
-                </a>
+                </router-link>
                 <!-- <a class="navbar-item">
                     Contact
                 </a> -->

@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import German from '../views/German.vue'
+import BM4F from '../views/BM4F.vue'
+import Modura from '../views/Modura.vue'
+
 
 Vue.use(VueRouter)
 
@@ -31,12 +35,31 @@ const routes = [
     name: 'German',
 
     component: () => import( '../views/German.vue')
+  },
+  {
+    path: '/bm4f',
+    name: 'BM4F',
+
+    component: () => import( '../views/BM4F.vue')
+  },
+  {
+    path: '/modura',
+    name: 'Modura',
+
+    component: () => import( '../views/Modura.vue')
   }
 
 ]
 
 const router = new VueRouter({
-  routes
+  routes:routes,
+  scrollBehavior: function(to, from, savedPosition){
+    if(to.hash) {
+      return {selector:to.hash}
+    }else{ 
+      return{x:0, y:0}
+    }
+  }
 })
 
 export default router

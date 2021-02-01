@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" type="image/png" href="@/assets/ccwhite.png"/>
     <Navigation>  </Navigation>
     <router-view/>
     <PageFooter>  </PageFooter>

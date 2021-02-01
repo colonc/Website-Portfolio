@@ -1,7 +1,6 @@
 <template>
-  <div for="card in cardData" key="card.id" class="column is-4">
-      <!-- <router-link :to="'/'{pageName}"> -->
-                
+  <div class="column is-4">
+      <router-link :to="pageName">     
             <div class="card large">
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -17,7 +16,7 @@
                     </div>
                 </div>
             </div>
-        <!-- </router-link> -->
+        </router-link>
     </div>
 
 </template>
@@ -25,7 +24,7 @@
 <script>
 export default {
     props:{
-        // pageName: String,
+        pageName: String,
         cardTitle: String,
         subtitle: String,
         imgPath: String,

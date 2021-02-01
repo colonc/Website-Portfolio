@@ -11,7 +11,7 @@
         <div class="columns is-vcentered mx-3 pb-6">
             <div class="column is-one-third">
                 <figure class="image">
-                    <img v-bind:src="require('@/assets/german/German2.png')" alt="German Politician">
+                    <img src="@/assets/german/German2.png" alt="German Politician">
                 </figure>
             </div>
             <div class="column is-two-thirds">
@@ -73,8 +73,6 @@
 
 <script>
 props:{
-        // pageName: String,
-        imgPath: String
     }
 </script>
 
