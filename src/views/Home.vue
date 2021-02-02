@@ -26,7 +26,19 @@
     </section>
 
     <section>
-      
+        <div class="container" data-aos="fade-up">
+            <h2 class="title is-2 mt-4 py-6 has-text-centered" id="PortfolioLink">Portfolio</h2>
+        <div id="app" class="row columns is-multiline is-centered">
+
+            <PortfolioCard pageName = "/German" cardTitle="Learn German/Deutsch" subtitle="Poster Design" imgPath="german.png"> </PortfolioCard>
+               
+            <PortfolioCard pageName = "/BM4F" cardTitle="Lead Reporting App" subtitle="Front-end App Development" imgPath="BM4F.png"> </PortfolioCard>
+
+            <PortfolioCard pageName = "/Modura" cardTitle="Modura" subtitle="App Prototyping" imgPath="modura.png"> </PortfolioCard>
+
+        </div>
+        
+        </div>
     </section>
     
 </div>  
