@@ -61,6 +61,11 @@ export default {
             toggle() {
                 this.isBurgerActive = !this.isBurgerActive
             }
+        },
+        watch: {
+            '$route' () {
+                this.isBurgerActive = false
+            }
         }
 }
 </script>

@@ -8,7 +8,7 @@
                         <img style="max-height: 95vh; width:auto;" src="@/assets/me2.png">
                     </figure>
                 </div>
-                <div class="column mr-6 mt-5" data-aos="fade-up">
+                <div class="column mx-3 mt-5" data-aos="fade-up">
                     <h2 class="title is-2 has-text-centered is-family-primary">A bit about me</h2>
                     <p class="subtitle is-4 has-text-left is-family-secondary"> My name is Cassandra Colón and I recently had the honor to blaze the trail and become the first generation of college graduates in my family. 
                         It has taken many late nights, continuous breaking out of my comfort zone, and persevering effort, but I can proudly say that I have accomplished my goal. 
