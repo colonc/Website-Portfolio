@@ -24,6 +24,9 @@
                 <router-link to="/#PortfolioLink" class="navbar-item">
                     Portfolio
                 </router-link>
+                <router-link to="/Blog" class="navbar-item">
+                    Blog
+                </router-link>
             </div>
         </div>
     </nav>
