@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import German from '../views/German.vue'
 import BM4F from '../views/BM4F.vue'
 import Modura from '../views/Modura.vue'
-
+import BlogPost from '../views/Blog/BlogPost.vue'
 
 Vue.use(VueRouter)
 
@@ -55,6 +55,12 @@ const routes = [
     name: 'Modura',
 
     component: () => import( '../views/Modura.vue')
+  }, 
+  {
+    path: '/blog/blogpost',
+    name: 'BlogPost',
+
+    component: () => import( '../views/Blog/BlogPost.vue')
   }
 
 ]

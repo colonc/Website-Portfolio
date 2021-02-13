@@ -14,10 +14,12 @@
                     blogSubtitle="Learning to Navigate The Tribal Knowledge Trap"
                     date="Jun 1 2019"
                     imgPath="blogImages/questions.jpg"
-                    pageName="./views/Blog/TribalKnowledge.vue"
+                    pageName="/blog/blogpost"
                     blurb="As I approach the 11 month mark at my first full time job post-graduation, I am amassing my own wealth of knowledge. 
             I’m gaining technical development skills"></BlogCard>
-
+        </div>
+         <div class = "column is-one-third">
+        
         </div>
     </div> <!-- columns-->
 </div>
