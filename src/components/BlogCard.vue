@@ -16,7 +16,7 @@
             <div class="content">
             {{blurb}}... <router-link :to="pageName">[Read More]</router-link>
             <br>
-            <time datetime="2019-6-6">{{date}}</time>
+            <time datetime=" ">{{date}}</time>
             </div>
         </div>
     </div>

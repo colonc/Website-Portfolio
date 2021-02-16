@@ -19,9 +19,11 @@ Tribal knowledge describes the wealth of knowledge that a company or group of pe
 
 The lack of documentation that I’ve come across is immensely frustrating.  As a developer coming onto projects utilizing proprietary technology, I am deeply reliant on proper and thorough documentation as I can no longer direct my questions to Google or Stack Overflow.  This lack of written rules and functionality for the product and service that is being provided is a hindrance for all parties involved: team members, the client, as well as the company providing their advice or services.  
 
-<!-- [![Dilbert Comic on Tribal Knowledge](../img/TribalKnowledge/tribalKnowledge.gif "Dilbert Comic on the topic of Tribal Knowledge")](https://dilbert.com/) -->
-
-
+<p align="center">
+    <a href = "https://dilbert.com/" > 
+        <img src="../src/assets/blogImages/tribalKnowledge.gif" title="Dilbert Comic on the topic of Tribal Knowledge"/>
+    </a>
+</p>
 
 * **Speaking as a team member**
   

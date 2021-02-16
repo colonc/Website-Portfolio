@@ -3,12 +3,20 @@
     <section class = "hero hero-gradient is-bold">
                <div class = "hero-body is-3by1">
                   <div class = "container">
-                     <h1 class = "title">(Main title)</h1>
-                     <h2 class = "subtitle">(Subtitle)</h2>
+                     <h1 class = "title">Blog it Out</h1>
+                     <!-- <h2 class = "subtitle">(Subtitle)</h2> -->
                   </div>
                </div>
             </section>
     <div class= "columns px-4">
+        <div class = "column is-one-third">
+          <BlogCard blogTitle="Buy Local, Buy Black" 
+                    blogSubtitle="My Data Science Journey with DS4A's CorrelationOne"
+                    date="Feb 18 2021"
+                    imgPath="blogImages/CrowdFavorite.png"
+                    pageName="/blog/blogpost"
+                    blurb="blah blah b lah"></BlogCard>
+        </div>
         <div class = "column is-one-third">
           <BlogCard blogTitle="Hidden Pockets of Knowledge" 
                     blogSubtitle="Learning to Navigate The Tribal Knowledge Trap"
@@ -18,9 +26,7 @@
                     blurb="As I approach the 11 month mark at my first full time job post-graduation, I am amassing my own wealth of knowledge. 
             I’m gaining technical development skills"></BlogCard>
         </div>
-         <div class = "column is-one-third">
         
-        </div>
     </div> <!-- columns-->
 </div>
 

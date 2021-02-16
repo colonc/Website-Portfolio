@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <div class="content article-body">
-                            <component :is="dynamicComponent" />
+                            <component :is="dynamicComponent"/>
                         </div>
                     </div>
                 </div>
@@ -34,6 +34,7 @@
    props:{
       markdownFilePath: String,
    },
+
     data () {
       return {
         title: null,
@@ -42,8 +43,10 @@
         dynamicComponent: null
       }
     },
+//blog_posts/2021-02-18-buyLocalBuyBlack.md
+//blog_posts/2019-6-06-tribal-knowledge.md
     created () {
-      const markdown = require(`${process.env.BASE_URL}./blog_posts/2019-6-06-tribal-knowledge.md`)
+      const markdown = require(`${process.env.BASE_URL}./blog_posts/2021-02-18-buyLocalBuyBlack.md`)
       this.title = markdown.attributes.title
       this.subtitle = markdown.attributes.subtitle
       this.date = markdown.attributes.date
