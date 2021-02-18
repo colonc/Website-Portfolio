@@ -26,7 +26,7 @@
     </section>
 
     <section>
-        <div class="container" data-aos="fade-up" id="PortfolioLink">
+        <div class="container" data-aos="fade-up" id="portfoliolink">
             <h2 class="title is-2 mt-4 py-6 has-text-centered" >Portfolio</h2>
         <div id="app" class="row columns is-multiline is-centered">
 
