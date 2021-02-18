@@ -1,12 +1,12 @@
 ---
 title: Buy Local, Buy Black
 subtitle: My Data Science Journey with DS4A's Correlation One
-date: Feb 18, 2021
+date: Feb 16, 2021
 ---
 
 For the past 13 weeks, I spent my Saturdays on Zoom absorbing as much data knowledge and skills as I could thanks to the efforts of *“Correlation One's”*  [Data Science for All](https://bit.ly/3lYh7jQ) program.  This was an initiative geared to bring historically underrepresented groups into the data science field. While attending lectures by Harvard professors - **shout out to Natesh Pillai** - and other amazing guest lecturers, we were then divided into groups and tasked with developing a data science project. 
 
-My team decided to focus on solving a local data need; We focused on helping a Philadelphia based grocery co-op, Weavers Way, take steps to diverse the supply chain. Given that a team member, VJ, was a member of the coop, we had the opportunity to allow our data journey have direct impact on the community.  
+My team decided to focus on solving a local data need; We focused on helping a Philadelphia based grocery co-op, Weavers Way, take steps to diversify their supply chain. Given that a team member, VJ, was a member of the coop, we had the opportunity to allow our data journey have direct impact on the community.  
 
 Our solution was to find and visualize demographic data about local food growers, vendors, and producers and to create a searchable database.  The visualization gives context on the racial demographics of the market of local food producers (over 90% of farmers in the 9 Northeastern states were white). This database enhances current practices and allows the coop to save time - over 400 hours of our collective team's work - while also taking a more proactive approach to identifying new vendors. Below is a screenshot of the vendor search capability. 
 

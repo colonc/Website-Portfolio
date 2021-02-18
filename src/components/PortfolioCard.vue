@@ -1,6 +1,6 @@
 <template>
   <div class="column is-4">
-      <router-link :to="pageName">     
+      <router-link :to="pageNameRouter">     
             <div class="card large">
                 <div class="card-image">
                     <figure class="image is-3by2">
@@ -10,7 +10,7 @@
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
-                            <p class="title is-4 pb-0 has-text-centered">{{cardTitle}}</p>
+                            <p class="title is-4 pb-0 has-text-centered is-family-primary ">{{cardTitle}}</p>
                             <p class="subtitle has-text-centered">{{subtitle}}</p>  
                         </div>
                     </div>
@@ -24,7 +24,7 @@
 <script>
 export default {
     props:{
-        pageName: String,
+        pageNameRouter: String,
         cardTitle: String,
         subtitle: String,
         imgPath: String,

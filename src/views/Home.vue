@@ -30,11 +30,13 @@
             <h2 class="title is-2 mt-4 py-6 has-text-centered" >Portfolio</h2>
         <div id="app" class="row columns is-multiline is-centered">
 
-            <PortfolioCard pageName = "/Modura" cardTitle="Modura" subtitle="App Prototyping" imgPath="modura.png"> </PortfolioCard>
+            <PortfolioCard pageNameRouter = "/modura" cardTitle="Modura" subtitle="App Prototyping" imgPath="modura.png"> </PortfolioCard>
 
-            <PortfolioCard pageName = "/German" cardTitle="Learn German/Deutsch" subtitle="Poster Design" imgPath="german.png"> </PortfolioCard>
-               
-            <PortfolioCard pageName = "/BM4F" cardTitle="Lead Reporting App" subtitle="Front-end App Development" imgPath="BM4F.png"> </PortfolioCard>
+            <PortfolioCard pageNameRouter = "/german" cardTitle="Learn German/Deutsch" subtitle="Poster Design" imgPath="german.png"> </PortfolioCard>
+
+            <PortfolioCard pageNameRouter = "/buylocalbuyblack" cardTitle="Buy Local, Buy Black" subtitle="Data Science Project" imgPath="WW_localfirstlogo.png"> </PortfolioCard>
+
+            <PortfolioCard pageNameRouter = "/bm4f" cardTitle="Lead Reporting App" subtitle="Front-end App Development" imgPath="BM4F.png"> </PortfolioCard>
 
         </div>
         

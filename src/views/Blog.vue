@@ -12,17 +12,17 @@
         <div class = "column is-one-third">
           <BlogCard blogTitle="Buy Local, Buy Black" 
                     blogSubtitle="My Data Science Journey with DS4A's CorrelationOne"
-                    date="Feb 18 2021"
+                    date="Feb 16 2021"
                     imgPath="blogImages/CrowdFavorite.png"
-                    pageName="/blog/blogpost"
-                    blurb="blah blah b lah"></BlogCard>
+                    pageName="/blog/2021-02-16-buylocalbuyblack"
+                    blurb="For the past 13 weeks, I spent my Saturdays on Zoom absorbing as much data knowledge and skills as I could thanks to the efforts of"></BlogCard>
         </div>
         <div class = "column is-one-third">
           <BlogCard blogTitle="Hidden Pockets of Knowledge" 
                     blogSubtitle="Learning to Navigate The Tribal Knowledge Trap"
                     date="Jun 1 2019"
                     imgPath="blogImages/questions.jpg"
-                    pageName="/blog/blogpost"
+                    pageName="/blog/2019-6-06-tribal-knowledge"
                     blurb="As I approach the 11 month mark at my first full time job post-graduation, I am amassing my own wealth of knowledge. 
             I’m gaining technical development skills"></BlogCard>
         </div>

@@ -46,13 +46,13 @@ $light-white: #F5F5F5 ;
     background-image: linear-gradient(#261F8B,#f5f5f5)
 }
 
- .article-body{
+ .article-body .content{
      font-family: "Open Sans", san-serif;
  }
 
- .content{
-    font-family: "Open Sans", san-serif;
- }
+p{
+    font-family: "Open Sans", san-serif;  
+}
 // Update Bulma's global variables
 $family-primary: "Oleo Script", script;
 $family-secondary: "Open Sans", san-serif;

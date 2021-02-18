@@ -9,11 +9,11 @@
         <div class="card-content">
             <div class="media">
                 <div class="media-content">
-                    <p class="title is-4">{{blogTitle}}</p>
-                    <p class="subtitle is-6">{{blogSubtitle}}</p>
+                    <p class="title is-family-primary is-4">{{blogTitle}}</p>
+                    <p class="subtitle is-family-primary is-6">{{blogSubtitle}}</p>
                 </div>
             </div>
-            <div class="content">
+            <div class="content is-family-secondary">
             {{blurb}}... <router-link :to="pageName">[Read More]</router-link>
             <br>
             <time datetime=" ">{{date}}</time>

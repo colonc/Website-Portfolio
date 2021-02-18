@@ -4,14 +4,17 @@ import Home from '../views/Home.vue'
 import German from '../views/German.vue'
 import BM4F from '../views/BM4F.vue'
 import Modura from '../views/Modura.vue'
+import BuyLocalBuyBlack from '../views/BuyLocalBuyBlack.vue'
 import BlogPost from '../views/Blog/BlogPost.vue'
 
 Vue.use(VueRouter)
 
+
+
 const routes = [
   {
-    path: '/',
-    name: 'Home',
+    path: '/',   
+    name: 'Home',     
     component: Home
   },
   {
@@ -57,11 +60,18 @@ const routes = [
     component: () => import( '../views/Modura.vue')
   }, 
   {
-    path: '/blog/blogpost',
+    path: '/buylocalbuyblack',
+    name: 'BuyLocalBuyBlack',
+
+    component: () => import( '../views/BuyLocalBuyBlack.vue')
+  },
+  {
+    path: '/blog/:name',
     name: 'BlogPost',
 
     component: () => import( '../views/Blog/BlogPost.vue')
   }
+
 
 ]
 

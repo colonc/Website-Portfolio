@@ -18,13 +18,13 @@
             </div>
 
             <div class="navbar-end is-align-content-space-between pr-6 is-size-4 ">
-               <router-link to="/About" class="navbar-item">
+               <router-link to="/about" class="navbar-item">
                     About
                 </router-link>
-                <router-link to="/#PortfolioLink" class="navbar-item">
+                <router-link to="/#portfoliolink" class="navbar-item">
                     Portfolio
                 </router-link>
-                <router-link to="/Blog" class="navbar-item">
+                <router-link to="/blog" class="navbar-item">
                     Blog
                 </router-link>
             </div>

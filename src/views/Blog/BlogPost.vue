@@ -9,7 +9,7 @@
                     <div class="card-content">
                         <div class="media">
                             <div class="media-content has-text-centered">
-                                <p class="title article-title">{{ title }}</p>
+                                <p class="title article-title is-family-primary">{{ title }}</p>
                                 <p class="subtitle">{{ subtitle }}</p>
                                 <div class="tags has-addons level-item">
                                     <span class="tag is-rounded">{{ date }}</span>
@@ -45,8 +45,10 @@
     },
 //blog_posts/2021-02-18-buyLocalBuyBlack.md
 //blog_posts/2019-6-06-tribal-knowledge.md
+//${this.$route.params.name}
     created () {
-      const markdown = require(`${process.env.BASE_URL}./blog_posts/2021-02-18-buyLocalBuyBlack.md`)
+      const markdown = require(`/blog_posts/${this.$route.params.name}.md`)
+      console.log(this.dynamicComponent)
       this.title = markdown.attributes.title
       this.subtitle = markdown.attributes.subtitle
       this.date = markdown.attributes.date
@@ -54,7 +56,7 @@
 
       // Use Async Components for the benefit of code splitting
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components
-      // this.dynamicComponent = () => import(`~/articles/${this.fileName}.md`).then(({ vue }) => vue.component
+      //this.dynamicComponent = () => import(`/blog_posts/${this.$route.params.name}.md`).then(({ vue }) => vue.component)
     }
   }
 </script>
