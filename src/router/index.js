@@ -6,6 +6,7 @@ import BM4F from '../views/BM4F.vue'
 import Modura from '../views/Modura.vue'
 import BuyLocalBuyBlack from '../views/BuyLocalBuyBlack.vue'
 import BlogPost from '../views/Blog/BlogPost.vue'
+import WrongWithMommy from '../views/WrongWithMommy.vue'
 
 Vue.use(VueRouter)
 
@@ -34,14 +35,6 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Blog.vue')
   },
   {
-    path: '/portfolio',
-    name: 'Portfolio',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Portfolio.vue')
-  },
-  {
     path: '/german',
     name: 'German',
 
@@ -66,11 +59,18 @@ const routes = [
     component: () => import( '../views/BuyLocalBuyBlack.vue')
   },
   {
+    path: '/whatswrongwithmommy',
+    name: 'WrongWithMommy',
+
+    component: () => import( '../views/WrongWithMommy.vue')
+  },
+  {
     path: '/blog/:name',
     name: 'BlogPost',
 
     component: () => import( '../views/Blog/BlogPost.vue')
-  }
+  },
+  
 
 
 ]

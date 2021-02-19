@@ -1,7 +1,7 @@
 <template>
  <div class="container" data-aos="zoom-in">
         <h2 class="title is-2 mt-4 pt-6 has-text-centered">Lead Reporting App - App Development </h2>
-            <h4 class="subtitle is-4 pb-6 is-family-secondary has-text-centered">
+            <h4 class="subtitle is-4 pb-6 px-4 is-family-secondary has-text-centered">
                 As a member of a three-person team, we developed the front end of a survey application for users in the Flint, Michigan area to report their suspicions of lead poisoning. 
                 Using React Native, the user interface and data collection components were developed for both iOS and Android devices.
             </h4>

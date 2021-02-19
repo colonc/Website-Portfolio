@@ -38,6 +38,7 @@
 
             <PortfolioCard pageNameRouter = "/bm4f" cardTitle="Lead Reporting App" subtitle="Front-end App Development" imgPath="BM4F.png"> </PortfolioCard>
 
+            <PortfolioCard pageNameRouter = "/whatswrongwithmommy" cardTitle="What's Wrong With My Mommy?" subtitle="Children's Book Illustrations" imgPath="wrongwithmommy/MominHandsSquare.png"> </PortfolioCard>
         </div>
         
         </div>

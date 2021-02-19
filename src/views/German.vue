@@ -1,7 +1,7 @@
 <template>
   <div class= "container">
        <h2 class="title is-2 mt-4 pt-6 has-text-centered">Rethink Your Assumptions - Learn German/Deutsch </h2>
-        <h4 class="subtitle is-4 pb-6 is-family-secondary has-text-centered">
+        <h4 class="subtitle is-4 pb-6 px-4 is-family-secondary has-text-centered">
             Built 6 bi-lingual posters surrounding the topic of questioning one’s assumption/preconceived notions
             regarding the German culture and identity.
             Designed to be hung either “right side up” or “upside down”, the posters invited viewers to flip one’s
