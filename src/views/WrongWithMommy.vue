@@ -11,7 +11,7 @@
 
     <p class= "is-size-5 px-4 has-text-centered"> <b>"What's Wrong with my Mommy?"</b> can be found on <a href="https://amzn.to/3drUlAk">Amazon.</a></p>
 
-    <carousel-3d :width="400" :height="533">
+    <carousel-3d :width="400" :height="533" :controls-visible="true">
       <slide :index="0"> <img src="../assets/wrongwithmommy/MominHands.png" alt="Mom in hands"> </slide>
       <slide :index="1"> <img src="../assets/wrongwithmommy/why.png" alt="Why Why Why"> </slide>
       <slide :index="2"> <img src="../assets/wrongwithmommy/crowd_Stress.png" alt="Crowd Stress" style="height: 100%"> </slide>
