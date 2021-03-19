@@ -1,7 +1,7 @@
 <template>
 <div>
       <div class="container mb-5" data-aos="zoom-in">
-        <h2 class="title is-2 mt-4 pt-6 has-text-centered">MODURA - eCommerce Protoype</h2>
+        <h2 class="title is-2 mt-4 pt-6 has-text-centered">MODURA - eCommerce Prototype</h2>
         <h4 class="subtitle is-4 pb-4 px-4 is-family-secondary has-text-centered">
             Mock-up, color palette, and logo designed for Modura, an e-Commerce clothing brand designed for
             trendy men and women between 18 - 25 years old.
