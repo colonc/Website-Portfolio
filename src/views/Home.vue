@@ -9,7 +9,7 @@
                     </figure>
                 </div>
                 <div class="column has-text-centered pt-6 mt-6" data-aos="fade-up">
-                    <h2 class="title is-2 is-family-primary">Flex Your Love of Learning</h2>
+                    <h2 class="title is-2 is-family-primary">Flexing My Love of Learning</h2>
                     <h4 class="subtitle is-4 is-family-secondary">The learning begins when the knowledge ends</h4>
                 </div>
             </div>
