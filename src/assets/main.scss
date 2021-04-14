@@ -18,12 +18,17 @@ $light-white: #F5F5F5 ;
 //$hero-gradient-invert: findColorInvert($hero-gradient);
 //$custom-colors: ("hero-gradient": ($hero-gradient, $hero-gradient-invert));
 
-.hero-gradient{
-    background-image: linear-gradient(#D0BBEC,#f5f5f5);
+.center{
+    text-align: center;
 }
-
-.titleFormat{
-    font-size: 24px;
+.footer{
+    //position: absolute;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+ .hero-gradient{
+    background-image: linear-gradient(#D0BBEC,#f5f5f5);
 }
 
 .light-gradient{
@@ -34,10 +39,8 @@ $light-white: #F5F5F5 ;
     background-image: linear-gradient(#f5f5f5, #C4D1E7);
 }
 
-.footer{
-   //position: absolute;
-    bottom: 0;
-    width: 100%;
+.titleFormat{
+    font-size: 24px;
 }
 
 .bckgroundfill{
@@ -50,8 +53,24 @@ $light-white: #F5F5F5 ;
  }
 
 p{
-    font-family: "Open Sans", san-serif;  
+    font-family: "Open Sans", san-serif; 
+    font-size: large; 
 }
+
+h2{
+    color: $drk-purple;
+}
+
+.content li{
+    font-family: "Open Sans", san-serif;
+    color: $drk-purple;
+}
+
+.subtitle{
+    font-family: "Open Sans", san-serif; 
+    font-weight: bold; 
+}
+
 // Update Bulma's global variables
 $family-primary: "Oleo Script", script;
 $family-secondary: "Open Sans", san-serif;
