@@ -1,8 +1,16 @@
 [
   {
+    "name": "modura",
+    "path": "/modura",
+    "component": "/Users/thatcass/website-portfolio/pages/modura.vue",
+    "chunkName": "pages/modura",
+    "_name": "_69fde7a8"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/Users/thatcass/website-portfolio/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_4656c488"
   }
 ]

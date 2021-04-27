@@ -8,10 +8,19 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        // Configure your color palette here
+        'moduranavy': '#0D1A41',
+        'accentpurp': '#7454FB',
+        'backgroundwhite': '#FAF8F2',
+        'sectionbeige': '#EBE8E0'
+      }
+    },
     fontFamily: {
       'display': ['Dosis', 'Sans-serif']
     },
+   
   },
   variants: {
     extend: {},

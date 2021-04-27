@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="342px" height="145px" viewBox="0 0 342 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>M-ModuraWhite</title>
+    <g id="M-ModuraWhite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Group" transform="translate(0.000000, 0.059280)"></g>
+            <g id="Group-3" transform="translate(0.200000, 0.059280)">
+                <polyline id="Path-3" stroke="#979797" stroke-width="15" stroke-linecap="square" points="51.8 123.94072 91.8 23.9407198 131.8 123.94072"></polyline>
+                <polygon id="Polygon" fill="#FFFFFF" points="62.8756801 116.442642 56.7689665 131.72188 46.7554256 131.72188 46.7554256 116.442642"></polygon>
+                <polygon id="Polygon-Copy" fill="#FFFFFF" transform="translate(128.784616, 124.080306) scale(-1, 1) translate(-128.784616, -124.080306) " points="136.844743 116.440688 130.738029 131.719925 120.724489 131.719925 120.724489 116.440688"></polygon>
+            </g>
+            <path d="M48.9942053,124 C35.9942053,124 23.9961368,124 13,124 L52,24 L92,124 L132,24 L172,124 C172,124 158.666667,124 132,124" id="Path-2" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"></path>
+        </g>
+        <text id="ODURA" font-family="LucidaGrande-Bold, Lucida Grande" font-size="45" font-weight="bold" letter-spacing="-0.1269225" fill="#FFFFFF">
+            <tspan x="171.794113" y="91.5">ODURA</tspan>
+        </text>
+    </g>
+</svg>

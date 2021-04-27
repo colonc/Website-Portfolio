@@ -3,7 +3,8 @@ import { wrapFunctional } from './utils'
 
 const components = {
   Logo: () => import('../../components/Logo.vue' /* webpackChunkName: "components/logo" */).then(c => wrapFunctional(c.default || c)),
-  NavBar: () => import('../../components/NavBar.vue' /* webpackChunkName: "components/nav-bar" */).then(c => wrapFunctional(c.default || c))
+  NavBar: () => import('../../components/NavBar.vue' /* webpackChunkName: "components/nav-bar" */).then(c => wrapFunctional(c.default || c)),
+  PortfolioCard: () => import('../../components/PortfolioCard.vue' /* webpackChunkName: "components/portfolio-card" */).then(c => wrapFunctional(c.default || c))
 }
 
 for (const name in components) {

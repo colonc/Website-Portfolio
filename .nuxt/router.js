@@ -4,6 +4,7 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _69fde7a8 = () => interopDefault(import('../pages/modura.vue' /* webpackChunkName: "pages/modura" */))
 const _4656c488 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
@@ -18,6 +19,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/modura",
+    component: _69fde7a8,
+    name: "modura"
+  }, {
     path: "/",
     component: _4656c488,
     name: "index"
